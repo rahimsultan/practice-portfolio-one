@@ -1,0 +1,54 @@
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.jsutify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content:center;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.btn{
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.8rem 3rem;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 2px;
+}
+
+.btn-primary{
+    color: var(--secondary);
+    background: var(--primary);
+}
+
+
+.btn-primary:hover {
+    color: var(--primary);
+    background: transparent;
+    border-color: var(--primary);
+}
+
+.btn-secondary{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--dark);
+}
